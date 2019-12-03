@@ -1,0 +1,99 @@
+.container {
+    width: 100%;
+    padding: 0%;
+  }
+  
+  .container-fluid {
+    margin-top: 3%;
+    max-width: 100%;
+  }
+  
+  #sailorTableArea {
+    height: 60%;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  
+  #sailorTable {
+    white-space: normal;
+    height: 100%;
+    width: 100%;
+  }
+  
+  tbody {
+    display: contents;
+    max-height: 100%;
+    overflow: auto;
+  }
+  
+  thead,
+  tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  thead {
+    background: #60a3bc;
+  }
+  
+  #myInput {
+    background-image: url('/css/searchicon.png');
+    /* Add a search icon to input */
+    background-position: 10px 12px;
+    /* Position the search icon */
+    background-repeat: no-repeat;
+    /* Do not repeat the icon image */
+    width: 100%;
+    /* Full-width */
+    font-size: 16px;
+    /* Increase font-size */
+    padding: 12px 0px 12px 40px;
+    /* Add some padding */
+    border: 1px solid #ddd;
+    /* Add a grey border */
+    margin-bottom: 12px;
+    /* Add some space below the input */
+    border-radius: 10px;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  button {
+    border-radius: 10px;
+  }
+  
