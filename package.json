@@ -23,7 +23,7 @@
     "amplify": "0.0.11",
     "aws-amplify": "^1.2.4",
     "aws-amplify-angular": "^3.1.4",
-    "aws-sdk": "^2.580.0",
+    "aws-sdk": "^2.814.0",
     "bootstrap": "^4.3.1",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
